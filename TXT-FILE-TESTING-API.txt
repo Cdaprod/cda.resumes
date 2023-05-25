@@ -1,0 +1,15 @@
+To return the contents of a file in a GitHub repository via the GitHub API, you would use a similar URL structure to the one used to access directories, but with the path extending to the specific file you're interested in.
+
+The structure is:
+
+`https://api.github.com/repos/{owner}/{repo}/contents/{path_to_file}`
+
+Where `{owner}` is the username of the repository owner, `{repo}` is the name of the repository, and `{path_to_file}` is the path to the file you want to access.
+
+For example, if you want to access a file named `example.txt` in the root of the repository "cda.resumes" owned by "Cdaprod", you would use:
+
+`https://api.github.com/repos/Cdaprod/cda.resumes/contents/example.txt`
+
+This will return a JSON object with properties about the file, including a "content" field. The "content" field contains the content of the file encoded in base64. To get the actual content of the file, you will need to decode this base64 string.
+
+Keep in mind that URLs must be correctly encoded, and that spaces in file or directory names should be replaced with `%20`. Also, remember that the GitHub API has rate limits, especially for unauthenticated requests. If you're planning to make a lot of requests, you might need to authenticate to increase your limit.
