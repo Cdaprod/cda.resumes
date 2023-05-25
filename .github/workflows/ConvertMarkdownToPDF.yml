@@ -1,0 +1,28 @@
+name: Markdown to PDF
+
+on:
+  push:
+    paths:
+    - '**/Markdown-Versions/**/*.md'
+  workflow_dispatch:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository content
+      uses: actions/checkout@v2
+      
+    - name: Setup Pandoc
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc
+      
+    - name: Convert Markdown files to PDF
+      run: |
+        for markdownFile in $(find . -name 'Markdown-Versions' -type d -print0 | xargs -0 -I {} find {} -name '*.md'); do
+          pdfDir=$(dirname "$markdownFile")/../Markdown-To-PDF-Actions-Folder
+          mkdir -p "$pdfDir"
+          pdfFile="$pdfDir"/$(basename "$markdownFile" .md).pdf
+          pandoc "$markdownFile" -o "$pdfFile"
+        done
