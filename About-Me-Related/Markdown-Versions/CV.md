@@ -45,4 +45,4 @@ A dedicated Full-Stack Developer and Cybersecurity Specialist, demonstrating pra
 
 **Education**
 
-Self-educated in programming and IT concepts, spending significant time each day mastering various programming languages and IT concepts. Despite not having formal college education due to life’s hurdles, managed to make significant strides in a short time, a testament to the drive and resilience【35†source】【57†source】.
+Self-educated in programming and IT concepts, spending significant time each day mastering various programming languages and IT concepts. Despite not having formal college education due to life’s hurdles, managed to make significant strides in a short time, a testament to the drive and resilience.
