@@ -1,0 +1,26 @@
+name: Convert Markdown to PDF
+
+on:
+  push:
+    paths:
+      - '**/Markdown Versions/*.md'
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Setup pandoc
+      uses: docker://pandoc/latex
+
+    - name: Convert Markdown to PDF
+      run: |
+        for markdownFile in $(find . -name 'Markdown Versions' -type d -print0 | xargs -0 -I {} find {} -name '*.md'); do
+          pdfDir=$(dirname "$markdownFile")/../Markdown\ To\ PDF\ -\ Actions\ Folder
+          mkdir -p "$pdfDir"
+          pdfFile="$pdfDir"/$(basename "$markdownFile" .md).pdf
+          pandoc "$markdownFile" -o "$pdfFile"
+        done
