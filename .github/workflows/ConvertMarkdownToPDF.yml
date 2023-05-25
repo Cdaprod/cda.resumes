@@ -1,24 +1,20 @@
-name: Markdown to PDF
+name: Generate PDF from Markdown
 
 on:
   push:
     paths:
-    - '**/Markdown-Versions/**/*.md'
-  workflow_dispatch:
+      - '**/Markdown-Versions/*.md'
 
 jobs:
-  convert:
+  build:
     runs-on: ubuntu-latest
+    container: 
+      image: pandoc/latex:latest
     steps:
-    - name: Checkout repository content
+    - name: Checkout repository
       uses: actions/checkout@v2
-      
-    - name: Setup Pandoc and pdflatex
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y pandoc texlive-latex-base
-      
-    - name: Convert Markdown files to PDF
+
+    - name: Convert Markdown to PDF
       run: |
         for markdownFile in $(find . -name 'Markdown-Versions' -type d -print0 | xargs -0 -I {} find {} -name '*.md'); do
           pdfDir=$(dirname "$markdownFile")/../Markdown-To-PDF-Actions-Folder
@@ -26,3 +22,4 @@ jobs:
           pdfFile="$pdfDir"/$(basename "$markdownFile" .md).pdf
           pandoc "$markdownFile" -o "$pdfFile"
         done
+
