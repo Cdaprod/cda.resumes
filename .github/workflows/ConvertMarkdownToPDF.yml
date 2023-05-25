@@ -13,10 +13,10 @@ jobs:
     - name: Checkout repository content
       uses: actions/checkout@v2
       
-    - name: Setup Pandoc
+    - name: Setup Pandoc and pdflatex
       run: |
         sudo apt-get update
-        sudo apt-get install -y pandoc
+        sudo apt-get install -y pandoc texlive-latex-base
       
     - name: Convert Markdown files to PDF
       run: |
