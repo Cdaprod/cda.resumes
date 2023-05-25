@@ -3,7 +3,7 @@ name: Markdown to PDF
 on:
   push:
     paths:
-    - '**/Markdown Versions/**/*.md'
+    - '**/Markdown-Versions/**/*.md'
   workflow_dispatch:
 
 jobs:
@@ -20,10 +20,9 @@ jobs:
       
     - name: Convert Markdown files to PDF
       run: |
-        for markdownFile in $(find . -name 'Markdown Versions' -type d -print0 | xargs -0 -I {} find {} -name '*.md'); do
-          pdfDir=$(dirname "$markdownFile")/../Markdown\ To\ PDF\ -\ Actions\ Folder
+        for markdownFile in $(find . -name 'Markdown-Versions' -type d -print0 | xargs -0 -I {} find {} -name '*.md'); do
+          pdfDir=$(dirname "$markdownFile")/../Markdown-To-PDF-Actions-Folder
           mkdir -p "$pdfDir"
           pdfFile="$pdfDir"/$(basename "$markdownFile" .md).pdf
           pandoc "$markdownFile" -o "$pdfFile"
         done
- 
