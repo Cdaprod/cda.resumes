@@ -15,10 +15,10 @@
 - [Developer - Cover Letter](/Developer-Related/Markdown-Versions/CoverLetter.md)
 - [Developer - Resume](/Developer-Related/Markdown-Versions/Resume-1.md)
 
-### About Me 📓
+### About Me 📗
 - [My Github - Readme](https://github.com/Cdaprod)
 
-### My Projects 
+### My Projects 📗
 - [Sanity Headless Application](/Project-Related/Sanity-Blog-Nextjs.md)
 - [BrevityRecon AWS Serverless Recon Framework](/Project-Related/AwsBrevityReconProject.md)
 - [My BugBounty-System](/Project-Related/BugBounty-System.md)
