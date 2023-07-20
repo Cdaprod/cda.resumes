@@ -25,7 +25,7 @@ Independent Projects, Douglasville, GA (June 2022 - Present)
 
 David has displayed a remarkable capacity for self-teaching and independent learning, mastering Full Stack Development in a remarkably short time. His achievements during this period include:
 
-- Rapid completion of Antisyphon's Mitre ATT&CK Course, displaying a deep understanding of security concepts.
+- Understanding of Mitre ATT&CK Course, displaying a deep understanding of security concepts.
 - Consistent engagement and active learning, reflected in his A+ GitHub contribution rating.
 - Effective management of a CI/CD Monorepo for Angular projects, handling deployments and continuous testing.
 - Development of Python applications to automate the use of OpenAI's artificial intelligence, leading to a "no-effort" passive income solution.
