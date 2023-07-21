@@ -19,12 +19,17 @@
 
 ### 🙋‍♂️ About David
 - [**My Github Readme - Dive into My World!**](https://github.com/Cdaprod)
+- [**Timeline of Employment**](/About-Me-Related/Timeline.docx)
+- [**A Testament & Security Statement**](/Pentest-Related/Markdown-Versions/SecurityStatement.md)
+- [**A Testament & Security Statement - Keepin it real**](/Pentest-Related/Markdown-Versions/SecurityStatement.md)
+
 
 ### 🚀 Signature Projects
 - [**Sanity Headless Application**](/Project-Related/Sanity-Blog-Nextjs.md)
 - [**BrevityRecon - AWS Serverless Recon Framework**](/Project-Related/AwsBrevityReconProject.md)
 - [**BugBounty-System - A Comprehensive Approach**](/Project-Related/BugBounty-System.md)
 - [**Custom Langchain Tool - Enhancing BugBounty-System**](/Project-Related/BugBounty-System.md)
+- [**Hacking Hardware - IoT Development**](/Project-Related/HardwareSecOps.pdf)
 
 ---
 
