@@ -6,7 +6,7 @@
 ### 🛡 Cyber Security 
 - [**Curriculum Vitae (CV)**](/Pentest-Related/Markdown-Versions/CV.md)
 - [**Cover Letter**](/resumes/Pentest-Related/Markdown-Versions/coverletter.md)
-- [**Resume**](/Pentest-Related/Markdown-Versions/resume.md)
+- [**Resume**](/Pentest-Related/PDF Versions/Security_Resume.pdf)
 - [**Highlighted Projects**](Pentest-Related/Markdown-Versions/projects.md)
 
 ### 🛠 DevOps & Software Engineering 
