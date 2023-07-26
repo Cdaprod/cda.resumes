@@ -23,7 +23,7 @@ A dynamic and versatile Software/DevOps Engineer with a proven track record in m
 ### Software/DevOps Engineer
 Independent Projects, Douglasville, GA (June 2022 - Present)
 
-- Rapid completion of Antisyphon's Mitre ATT&CK Course, showcasing a deep understanding of cybersecurity concepts.
+- I have a deep understanding of cybersecurity concepts including Networking, User Groups, Data Transfer Protocols like Tcp, Http, websockets, and apis.
 - Maintained a high level of technical engagement, reflected in an A+ GitHub contribution rating.
 - Managed a CI/CD Monorepo for Angular projects, handled deployments, and performed continuous testing.
 - Developed Python applications for a "no-effort" passive income solution by automating OpenAI's artificial intelligence usage.
