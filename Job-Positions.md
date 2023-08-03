@@ -1,4 +1,4 @@
-# Ideal Positions based on my skillsets
+# Realistic Positions based on my skillsets
 
 1. Junior Software Developer
 2. Entry-level Cybersecurity Analyst
