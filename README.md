@@ -1,5 +1,5 @@
-# David Cannan (Cdaprod)
----
+# David Cannan (Cdaprod)[Follow me on Linkedin!](www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=cdasmkt)
+
 
 ## Portfolios & Self-Documentations
 
