@@ -10,7 +10,7 @@
 - [**Highlighted Projects**](Pentest-Related/Markdown-Versions/projects.md)
 
 ### 🛠 DevOps & Software Engineering 
-- [**Curriculum Vitae (CV)**](/DevOps-Related/Markdown-Versions/DevOps-CV.md)
+- [**Curriculum Vitae (CV)**](/DevOps-Related/PDF-Versions/Enhanced_DevOps.pdf)
 
 ### 🌐 Full-Stack Development 
 - [**Curriculum Vitae (CV)**](/Developer-Related/Markdown-Versions/CV.md)
