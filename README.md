@@ -25,6 +25,7 @@
 
 
 ### 🚀 Signature Projects
+- [**Automating Passive Incomes with my Photography Biz and AI**](/Project-Related/Automated-Stock-Video-Metadata-System.md)
 - [**Sanity Headless Application**](/Project-Related/Sanity-Blog-Nextjs.md)
 - [**BrevityRecon - AWS Serverless Recon Framework**](/Project-Related/AwsBrevityReconProject.md)
 - [**BugBounty-System - A Comprehensive Approach**](/Project-Related/BugBounty-System.md)
