@@ -1,4 +1,4 @@
-name: Convert Markdown to PDF
+name: Convert Markdown to PDF with Docker
 
 on:
   push:
@@ -13,21 +13,13 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
       
-    - name: Install pandoc and texlive-full
-      run: sudo apt-get update && sudo apt-get install -y pandoc texlive-full
-
-    - name: Debugging - Locate pdflatex and xelatex
+    - name: Convert Markdown to PDF using Docker
       run: |
-        which pdflatex
-        which xelatex
+        docker run --rm -v $PWD:/data pandoc/latex:2.9 \
+        bash -c "mkdir -p /data/PDF && for mdfile in \$(find /data -name '*.md'); do filename=\$(basename -- \$mdfile); filename_no_ext=\"\${filename%.*}\"; pdffile=\"/data/PDF/\${filename_no_ext}.pdf\"; echo \"Converting \$mdfile to \$pdffile\"; pandoc \$mdfile -o \$pdffile; done"
 
-    - name: Create PDF directory
-      run: mkdir -p PDF
-
-    - name: Convert Markdown to PDF
-      run: |
-        for mdfile in $(find . -name "*.md"); do
-          filename=$(basename -- "$mdfile")
-          filename_no_ext="${filename%.*}"
-          pdffile="PDF/${filename_no_ext}.pdf"
-          echo "Converting $mdfile to $
+    - name: Upload PDFs
+      uses: actions/upload-artifact@v2
+      with:
+        name: pdf-files
+        path: PDF/*.pdf
