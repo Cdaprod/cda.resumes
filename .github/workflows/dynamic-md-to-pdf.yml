@@ -16,7 +16,7 @@ jobs:
     - name: Convert Markdown to PDF using Docker
       run: |
         docker run --rm -v $PWD:/data pandoc/latex:2.9 \
-        bash -c "mkdir -p /data/PDF && for mdfile in \$(find /data -name '*.md'); do filename=\$(basename -- \$mdfile); filename_no_ext=\"\${filename%.*}\"; pdffile=\"/data/PDF/\${filename_no_ext}.pdf\"; echo \"Converting \$mdfile to \$pdffile\"; pandoc \$mdfile -o \$pdffile; done"
+        bash -c "mkdir -p /data/PDF && for mdfile in \$(find /data -name '*.md'); do filename=\$(basename -- \$mdfile); filename_no_ext=\"\${filename%.*}\"; pdffile=\"/data/PDF/\${filename_no_ext}.pdf\"; echo \"Converting \$mdfile to \$pdffile\"; pandoc \$mdfile --pdf-engine=xelatex -o \$pdffile; done"
 
     - name: Upload PDFs
       uses: actions/upload-artifact@v2
