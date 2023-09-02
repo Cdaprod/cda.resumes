@@ -1,0 +1,36 @@
+name: Convert Markdown to PDF
+
+on:
+  push:
+    paths:
+      - '**/*.md'  # Trigger this workflow when an .md file is pushed
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Install pandoc
+      run: sudo apt-get install -y pandoc
+
+    - name: Create PDF directory
+      run: mkdir -p PDF
+
+    - name: Convert Markdown to PDF
+      run: |
+        for mdfile in $(find . -name "*.md"); do
+          filename=$(basename -- "$mdfile")
+          filename_no_ext="${filename%.*}"
+          pdffile="PDF/${filename_no_ext}.pdf"
+          echo "Converting $mdfile to $pdffile"
+          pandoc "$mdfile" -o "$pdffile"
+        done
+      
+    - name: Upload PDFs
+      uses: actions/upload-artifact@v2
+      with:
+        name: pdf-files
+        path: PDF/*.pdf
