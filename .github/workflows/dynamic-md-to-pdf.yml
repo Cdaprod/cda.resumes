@@ -16,6 +16,11 @@ jobs:
     - name: Install pandoc and texlive-full
       run: sudo apt-get update && sudo apt-get install -y pandoc texlive-full
 
+    - name: Debugging - Locate pdflatex and xelatex
+      run: |
+        which pdflatex
+        which xelatex
+
     - name: Create PDF directory
       run: mkdir -p PDF
 
@@ -25,12 +30,4 @@ jobs:
           filename=$(basename -- "$mdfile")
           filename_no_ext="${filename%.*}"
           pdffile="PDF/${filename_no_ext}.pdf"
-          echo "Converting $mdfile to $pdffile"
-          pandoc "$mdfile" --pdf-engine=xelatex -o "$pdffile"
-        done
-      
-    - name: Upload PDFs
-      uses: actions/upload-artifact@v2
-      with:
-        name: pdf-files
-        path: PDF/*.pdf
+          echo "Converting $mdfile to $
