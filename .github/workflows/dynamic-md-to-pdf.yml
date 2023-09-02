@@ -13,8 +13,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
       
-    - name: Install pandoc and texlive-xetex
-      run: sudo apt-get update && sudo apt-get install -y pandoc texlive-xetex
+    - name: Install pandoc and texlive-full
+      run: sudo apt-get update && sudo apt-get install -y pandoc texlive-full
 
     - name: Create PDF directory
       run: mkdir -p PDF
