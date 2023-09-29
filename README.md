@@ -1,21 +1,15 @@
 # David Cannan
 
-Phone: 4043584338
-Email: davidacannan@gmail.com
-GitHub: https://github.com/Cdaprod/Cdaprod
-Linkedin: https://www.linkedin.com/in/cdasmkt/
-Web Blog: https://sanity.cdaprod.dev
-Created time: September 26, 2023 8:11 AM
+## 📊 My GitHub Stats
+![](https://github-readme-stats.vercel.app/api?username=Cdaprod&show_icons=true&count_private=true&hide_title=true&hide_border=true&theme=radical)
 
-### Solutions Architect — DevOps + MLOps
+![](https://metrics.lecoq.io/cdaprod?template=classic&config.timezone=Asia%2FNicosia)
 
-Douglasville, Georgia, United States
-
-Email: [davidacannan@gmail.com](mailto:davidacannan@gmail.com) | Phone: (404) 358-4338
-
-[LinkedIn](https://www.linkedin.com/in/cdasmkt/) | [GitHub](https://github.com/Cdaprod/Cdaprod)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Cdaprod&layout=compact&hide_title=true&hide_border=true&theme=radical)
 
 ---
+
+## Open Source Solutions Architect - DevOps + MLOps
 
 ### **Skills Summary**
 
@@ -29,9 +23,83 @@ Email: [davidacannan@gmail.com](mailto:davidacannan@gmail.com) | Phone: (404) 35
 
 ---
 
-### Experience & Projects
+# David Cannan (Cdaprod)
+[Follow me on LinkedIn!](https://www.linkedin.com/in/cdasmkt/)
 
-### **Work Experience**
+### 🙋‍♂️ About David
+#### Additional Information
+
+- **Blog**: [Sanity.Cdaprod.dev](https://Sanity.Cdaprod.dev/)
+- **About-Me:** [Github/Cdaprod](https://github.com/Cdaprod/Cdaprod)
+- **Self-Taught**: No formal tech employment history, but a proven ability to learn and apply new skills.
+- **Unique Career Path**: Transitioned from photographer and woodworking to security & software engineering.
+
+- [**My Github Readme - Dive into My World!**](https://github.com/Cdaprod)
+- [**Timeline of Employment**](/About-Me-Related/Timeline.docx)
+- [**Public Acknowledgments**](/About-Me-Related/PublicAcknowledgments.md)
+
+### 🚀 Signature Projects
+- **Retrieval Augmented Generation System:** My RAGS is a centralized knowledge ML pipeline which is used to generate content based on my data.
+- **Automated Stock Video Metadata System**: Reduced metadata processing time by 80%.
+- **AwsBrevityReconProject**: Automated security reconnaissance, reducing manual effort by 70%.
+- **BugBounty-Infrastructure**: IaC deployments for security recon pipelines using Terraform, Vagrant, Docker, Ansible, and Python.
+
+
+- [**Automating Passive Incomes with my Photography Biz and AI**](/Project-Related/Automated-Stock-Video-Metadata-System.md)
+- [**Sanity Headless Application**](/Project-Related/Sanity-Blog-Nextjs.md)
+- [**BrevityRecon - AWS Serverless Recon Framework**](/Project-Related/AwsBrevityReconProject.md)
+- [**BugBounty-System - A Comprehensive Approach**](/Project-Related/BugBounty-System.md)
+- [**Custom Langchain Tool - Enhancing BugBounty-System**](/Project-Related/BugBounty-System.md)
+- [**Hacking Hardware - IoT Development**](/Project-Related/HardwareSecOps.pdf)
+
+---
+
+## Portfolios & Self-Documentations
+### 🛡 Cyber Security 
+- [**Curriculum Vitae (CV)**](/Pentest-Related/Markdown-Versions/CV.md)
+- [**Cover Letter**](/resumes/Pentest-Related/Markdown-Versions/coverletter.md)
+- [**Resume**](/Pentest-Related/PDF-Versions/Security_Resume.pdf)
+- [**Highlighted Projects**](/Pentest-Related/Markdown-Versions/projects.md)
+
+### 🛠 DevOps & Software Engineering 
+- [**Curriculum Vitae (CV)**](/DevOps-Related/PDF-Versions/Enhanced_DevOps.pdf)
+- [**Markdown Resume**](/DevOps-Related/Markdown-Versions/David_Cannan.md)
+- [**PDF Resume**](/DevOps-Related/PDF-Versions/David_Cannan.pdf)
+
+### 🌐 Full-Stack Development 
+- [**Curriculum Vitae (CV)**](/Developer-Related/Markdown-Versions/CV.md)
+- [**Cover Letter**](/Developer-Related/Markdown-Versions/CoverLetter.md)
+- [**Resume**](/Developer-Related/Markdown-Versions/Resume-1.md)
+
+---
+
+## 🔗 Connect with Me
+
+<p align="center">
+  <a href="https://linkedin.com/in/cdasmkt" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://twitter.com/cdasmktcda" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a>
+</p>
+
+---
+
+## 🌟 Endorsements & Recommendations
+
+### Public Acknowledgments
+
+> Over the past 45 weeks, I've invested approximately 12 hours per day to master the ability to engineer entire infrastructures from the ground up. My commitment to this endeavor has been recognized by industry leaders.
+> 
+- **Founder of Splunk:** I was honored to be invited for a one-on-one breakfast discussion, where we explored potential collaborations and delved into the future landscape of data analytics.
+- **CEO, Co-Founder & Team of MinIO:** I received personal recognition for my expertise in object storage solutions and was specifically asked to contribute a Gartner Peer Review on their behalf.
+
+If you've worked with me or have been impacted by one of my projects, consider leaving a star ⭐ on the repo or dropping a testimonial. Your support helps me continue to produce and share more open-source projects and insights with the community!
+
+---
+
+---
+
+### Experience & Work History
+
+#### **Work Experience**
 
 **Open Source Contributor, GitHub** (2022-2023)
 
@@ -55,15 +123,6 @@ Email: [davidacannan@gmail.com](mailto:davidacannan@gmail.com) | Phone: (404) 35
 
 ---
 
-### Projects
-
-- **Retrieval Augmented Generation System:** My RAGS is a centralized knowledge ML pipeline which is used to generate content based on my data.
-- **Automated Stock Video Metadata System**: Reduced metadata processing time by 80%.
-- **AwsBrevityReconProject**: Automated security reconnaissance, reducing manual effort by 70%.
-- **BugBounty-Infrastructure**: IaC deployments for security recon pipelines using Terraform, Vagrant, Docker, Ansible, and Python.
-
----
-
 ### **Education**
 
 - **Chattahoochee Technical College**, *Marietta, GA*
@@ -75,18 +134,7 @@ Email: [davidacannan@gmail.com](mailto:davidacannan@gmail.com) | Phone: (404) 35
 
 ---
 
-### Additional Information
+<p align="center">
+  <i>Leveraging technology to shape the future, one commit at a time.</i>
+</p>
 
-- **Blog**: [Sanity.Cdaprod.dev](https://Sanity.Cdaprod.dev/)
-- **About-Me:** [Github/Cdaprod](https://github.com/Cdaprod/Cdaprod)
-- **Self-Taught**: No formal tech employment history, but a proven ability to learn and apply new skills.
-- **Unique Career Path**: Transitioned from photographer and woodworking to security & software engineering.
-
----
-
-### Public Acknowledgments
-
-> Over the past 45 weeks, I've invested approximately 12 hours per day to master the ability to engineer entire infrastructures from the ground up. My commitment to this endeavor has been recognized by industry leaders.
-> 
-- **Founder of Splunk:** I was honored to be invited for a one-on-one breakfast discussion, where we explored potential collaborations and delved into the future landscape of data analytics.
-- **CEO, Co-Founder & Team of MinIO:** I received personal recognition for my expertise in object storage solutions and was specifically asked to contribute a Gartner Peer Review on their behalf.
