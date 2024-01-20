@@ -1,4 +1,12 @@
-# David Cannan
+<h1 align="center">
+  David Cannan
+  
+  [My Latest Resume](/DevOps-Related/PDF-Versions/DevOpsMLOps-David-Cannan.pdf)
+  
+  👆 Click here for my up-to-date resume 👆
+<h1>
+
+---
 
 ## 📊 My GitHub Stats
 ![](https://github-readme-stats.vercel.app/api?username=Cdaprod&show_icons=true&count_private=true&hide_title=true&hide_border=true&theme=radical)
@@ -38,12 +46,35 @@
 - [**Timeline of Employment**](/About-Me-Related/Timeline.docx)
 - [**Public Acknowledgments**](/About-Me-Related/PublicAcknowledgments.md)
 
-### 🚀 Signature Projects
-- **Retrieval Augmented Generation System:** My RAGS is a centralized knowledge ML pipeline which is used to generate content based on my data.
-- **Automated Stock Video Metadata System**: Reduced metadata processing time by 80%.
-- **AwsBrevityReconProject**: Automated security reconnaissance, reducing manual effort by 70%.
-- **BugBounty-Infrastructure**: IaC deployments for security recon pipelines using Terraform, Vagrant, Docker, Ansible, and Python.
+--- 
 
+### 🚀 Signature Projects
+
+**GitHub Public Contributions**
+
+- Actively developing and sharing gist content for the open-source community, including single-file applications, code snippets, and workflows. These contributions reflect my commitment to community-driven development and knowledge sharing.
+- Involved in developing and testing repository-based applications in various programming languages, contributing to the open-source community’s growth and diversity in technological solutions.
+
+**Retrieval Augmented Generation System (RAGS)**
+
+- Developed a centralized knowledge ML pipeline, RAGS, for content generation. It utilizes my extensive data sets to produce relevant and context-aware content, showcasing my expertise in machine learning and data processing.
+
+**Automated Stock Video Metadata System**
+
+- Engineered a self-hostable application integrated with an API for managing an indexable video archive. This system uses advanced machine learning algorithms for processing image and video data, efficiently generating and filtering stock videos.
+- Implemented a feature where queries and searches yield structured metadata, facilitating seamless uploads to stock video platforms with automatically generated metadata, leading to a 90% reduction in metadata processing time.
+
+**cda.BugBounty-Infrastructure**
+
+- Orchestrated IaC (Infrastructure as Code) deployments for security reconnaissance pipelines using a suite of tools including Terraform, Vagrant, Docker, Ansible, and Python. This project underscores my ability to create robust, scalable, and secure infrastructures.
+
+**cda.data-lake** 
+
+- Created a custom data lake serving as a knowledge base, incorporating machine learning algorithms and pipelines. This project demonstrates my capability to handle large-scale data and implement AI-driven insights.
+- Constructed multi-server applications with centralized and microservice-specific repositories, highlighting my skills in managing complex server environments and ML applications.
+- Automated CI (Continuous Integration) and CD (Continuous Deployment) using GitHub’s self-hosted runners, showcasing proficiency in modern DevOps practices.
+
+---
 
 - [**Automating Passive Incomes with my Photography Biz and AI**](/Project-Related/Automated-Stock-Video-Metadata-System.md)
 - [**Sanity Headless Application**](/Project-Related/Sanity-Blog-Nextjs.md)
@@ -84,42 +115,63 @@
 
 ## 🌟 Endorsements & Recommendations
 
-### Public Acknowledgments
+## Public Acknowledgments
 
-> Over the past 45 weeks, I've invested approximately 12 hours per day to master the ability to engineer entire infrastructures from the ground up. My commitment to this endeavor has been recognized by industry leaders.
-> 
-- **Founder of Splunk:** I was honored to be invited for a one-on-one breakfast discussion, where we explored potential collaborations and delved into the future landscape of data analytics.
-- **CEO, Co-Founder & Team of MinIO:** I received personal recognition for my expertise in object storage solutions and was specifically asked to contribute a Gartner Peer Review on their behalf.
+Since resigning as a cabinet maker in 2022 to pursue my passion for coding, I have invested an immense amount of time and effort in mastering the intricacies of software and infrastructure engineering. This relentless dedication, spanning several years, has garnered recognition from industry leaders and peers alike.
 
-If you've worked with me or have been impacted by one of my projects, consider leaving a star ⭐ on the repo or dropping a testimonial. Your support helps me continue to produce and share more open-source projects and insights with the community!
+**Founder of Splunk - Michael Camp:** Honored to engage in a one-on-one breakfast discussion, exploring potential collaborations and delving into the future landscape of data analytics.
 
----
+**CEO, Co-Founder - Anand Periasamy & Team of MinIO:** Received personal recognition for my expertise in object storage solutions, leading to an invitation to join the MinIO team and contribute a Gartner Peer Review, earning accolades from the CEO.
+
+**Nomination for Leadership Award - Internet2.0 Conference 2024:** My journey from cabinet maker to coder culminated in a nomination for a prestigious leadership award at the Internet2.0 conference in 2024, highlighting my significant contributions and emerging leadership in the tech industry.
 
 ---
 
 ### Experience & Work History
 
-#### **Work Experience**
+**Compensated DevOps Intern, MinIO** (November 2023 - Present)
+
+- Conducting in-depth research and implementation of DevOps solutions, focusing on leveraging MinIO’s Kubernetes-native object storage.
+- Responsible for optimizing and streamlining storage solutions, ensuring seamless integration within Kubernetes environments.
+- Collaborating with cross-functional teams to enhance storage efficiency and scalability, contributing to the development of robust, enterprise-grade infrastructure.
+- Engaging in continuous learning and application of best practices in cloud-native technologies and DevOps methodologies.
 
 **Open Source Contributor, GitHub** (2022-2023)
 
-- Actively contribute to a variety of open-source projects, focusing on automation, DevOps, and AI/ML.
-- Publishing contributions publicly to share my passion of creativity with other likeminded developers and hobbyists.
+- Specialized in developing and sharing a suite of tools and scripts aimed at enhancing ETL (Extract, Transform, Load) processes, streamlining AI automation, and structuring custom objects for efficient data handling.
+- Authored and contributed to projects that automate and optimize the transformation of raw data into actionable insights, leveraging advanced Python scripting.
+- Designed custom solutions for AI-driven automation tasks, contributing to the open-source community’s growing repository of AI and ML tools.
+- Actively involved in creating and refining algorithms for structuring and transforming data, making complex datasets more accessible and usable for varied applications.
+- My contributions have focused on increasing efficiency, reducing manual effort, and enhancing the capabilities of data processing and AI integrations in diverse environments.
+- Engaged with the open-source community by sharing detailed documentation and usage guides for my tools, fostering a culture of knowledge sharing and collaborative development.
 
-**CDA Photography LLC, Douglasville, GA** (2018-2022)
+**CDA Photography LLC, Owner** (2018-2022)
 
-- Owner and Product Developer
-- Developed and managed cloud resources, content delivery, and client data systems.
+- Founder and Product Developer of a dynamic photography and video production business, with a successful venture into the stock video market.
+- Currently in the process of transitioning CDA Photography into a SaaS platform, aimed at revolutionizing stock video management and distribution.
+- This innovative SaaS solution is designed to offer advanced features for video storage, efficient tagging, and streamlined content delivery, catering to the needs of content creators and digital marketers.
+- The development of this platform is synergistically aligned with my Cdaprod open-source initiatives, leveraging the open-source community’s power for collaborative development and feature enhancement.
+- The platform emphasizes scalability, user-friendly interfaces, and robust data analytics, positioning itself as a unique offering in the stock video market.
+- Dedicated to integrating cutting-edge technologies, including AI-driven metadata tagging and automated content categorization, to provide an unparalleled user experience.
+- This venture represents a pivotal transformation from a traditional photography business to a tech-forward, innovative SaaS provider, showcasing my versatility and forward-thinking approach in the digital content arena.
 
 **T&T Caseworks, Douglasville, GA** (2021-2022)
 
-- Head of Lamination Department
-- Implemented efficient processes, programmed CNC machines in C++ and Python.
+- As the Head of the Lamination Department, I led numerous process optimizations, significantly improving operational efficiency and product quality.
+- Implemented efficient, streamlined workflows, incorporating advanced methodologies and tools that minimized waste and maximized productivity.
+- My role was heavily focused on problem-solving, especially in adapting the production line to meet evolving demands and industry challenges.
+- Took the initiative to learn and apply programming skills, specifically in C++ and Python, to program single-board PLCs (Programmable Logic Controllers) for automation purposes.
+- I played a critical role in ensuring the highest standards of perfection, personally overseeing the lamination and final touches on jobs for high-profile clients such as Wellstar Hospitals, M.S. Center of Atlanta, Tanner, and Grady.
+- My hands-on approach and meticulous attention to detail were crucial in maintaining the quality and precision required by these large corporations, solidifying our reputation for excellence in the industry.
 
 **Grace Christian Academy, Powder Springs, GA** (2015-2018)
 
-- Primary Janitorial Custodian
-- Managed property and established efficient workflows.
+- Oversaw the comprehensive management of the academy’s property, ensuring a well-maintained, safe, and efficient environment conducive to learning.
+- Developed and implemented efficient workflows for property maintenance, streamlining operations to minimize disruption and maximize functionality.
+- Coordinated with faculty and staff to support the daily operational needs of the academy, adapting to the dynamic requirements of an educational setting.
+- Played a crucial role in organizing and facilitating school events as the on-site photographer.
+- Instituted preventative maintenance schedules to proactively address potential issues, thereby reducing downtime and extending the lifespan of facilities.
+- Contributed to creating a welcoming atmosphere for students, staff, and visitors, upholding the academy’s standards for excellence in education.
 
 ---
 
