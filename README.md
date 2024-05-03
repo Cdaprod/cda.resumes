@@ -1,7 +1,7 @@
 <h1 align="center">
   David Cannan
   
-  [My Latest Resume](/DevOps-Related/PDF-Versions/[DevOps Resume] David Cannan.pdf)
+  [My Latest Resume](/DevOps-Related/PDF-Versions/DevOps-AIOps-David-Cannan.pdf)
   
   👆 Click here for my up-to-date resume 👆
 <h1>
